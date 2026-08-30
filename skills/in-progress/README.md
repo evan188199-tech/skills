@@ -1,3 +1,5 @@
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 # In Progress
 
 Beta. These skills are public on purpose: try them and tell me what breaks. They're excluded from the plugin and the top-level README until they graduate to a stable bucket, they get no docs pages, and they can change or disappear without warning.

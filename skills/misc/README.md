@@ -1,3 +1,5 @@
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 # Misc
 
 Tools I keep around but rarely use, not promoted in the plugin.
