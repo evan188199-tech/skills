@@ -1,3 +1,5 @@
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 <p>
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>
@@ -10,7 +12,7 @@
 
 # Skills For Real Engineers
 
-[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
+[![skills.sh](https://skills.sh/b/evan188199-tech/skills)](https://skills.sh/evan188199-tech/skills)
 
 My agent skills that I use every day to do real engineering - not vibe coding.
 
@@ -24,7 +26,7 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 ## Installation (30-second setup)
 
-Two ways in, two philosophies. **The [Claude Code plugin](https://code.claude.com/docs/en/plugins)** installs the whole set as a managed, read-only bundle that updates when I ship, so you subscribe rather than fork. **[skills.sh](https://skills.sh/mattpocock/skills)** copies editable skill files into your project, so you can hack on them and make them your own. Pick one: installing both leaves you with every skill twice.
+Two ways in, two philosophies. **The [Claude Code plugin](https://code.claude.com/docs/en/plugins)** installs the whole set as a managed, read-only bundle that updates when I ship, so you subscribe rather than fork. **[skills.sh](https://skills.sh/evan188199-tech/skills)** copies editable skill files into your project, so you can hack on them and make them your own. Pick one: installing both leaves you with every skill twice.
 
 ### 1. Get the skills
 
@@ -49,7 +51,7 @@ It's in Claude Code's official marketplace, so there's nothing to add first, and
 <summary><strong>Codex, and other agents</strong></summary>
 
 ```bash
-npx skills@latest add mattpocock/skills
+npx skills@latest add evan188199-tech/skills
 ```
 
 Pick the skills you want, and which coding agents to install them on. **The installer lets you choose which skills to take, so make sure `setup-matt-pocock-skills` is one of them.**
@@ -64,7 +66,7 @@ A native Codex plugin is on the roadmap (see [`.agents/adr/0002-ship-as-a-claude
 Use the same installer, on any agent, including Claude Code:
 
 ```bash
-npx skills@latest add mattpocock/skills
+npx skills@latest add evan188199-tech/skills
 ```
 
 It writes the skills into your repo as ordinary files you own and can edit. Nothing updates behind your back; pull my latest changes when you want them with `npx skills update`.
@@ -229,3 +231,9 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+---
+
+## Localization Note
+
+This fork of [mattpocock/skills](https://github.com/mattpocock/skills) keeps the English content canonical and adds Simplified Chinese translations as sibling `.zh-CN.md` files. Chinese translations are adapted from [yangshun2005/mattpocock-skills-cn](https://github.com/yangshun2005/mattpocock-skills-cn) and [devcxl/mattpocock-skills-zh](https://github.com/devcxl/mattpocock-skills-zh). Sync record: upstream `mattpocock/skills@6654f6b`, 2026-08-30. See [TRANSLATING.md](./TRANSLATING.md).

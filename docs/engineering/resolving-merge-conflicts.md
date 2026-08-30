@@ -1,3 +1,5 @@
+[English](resolving-merge-conflicts.md) · [简体中文](resolving-merge-conflicts.zh-CN.md)
+
 ## What it does
 
 `resolving-merge-conflicts` works through an in-progress git merge or rebase, hunk by hunk, then runs the project's own checks and finishes the operation with a commit.

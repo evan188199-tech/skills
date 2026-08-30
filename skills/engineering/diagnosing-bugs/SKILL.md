@@ -3,6 +3,8 @@ name: diagnosing-bugs
 description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 # Diagnosing Bugs
 
 A discipline for hard bugs. Skip phases only when explicitly justified.

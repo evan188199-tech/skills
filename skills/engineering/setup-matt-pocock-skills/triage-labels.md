@@ -1,3 +1,5 @@
+[English](triage-labels.md) · [简体中文](triage-labels.zh-CN.md)
+
 # Triage Labels
 
 The skills speak in terms of five canonical triage roles. This file maps those roles to the actual label strings used in this repo's issue tracker.

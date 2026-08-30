@@ -4,6 +4,8 @@ description: "Implement a piece of work based on a spec or set of tickets."
 disable-model-invocation: true
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 Implement the work described by the user in the spec or tickets.
 
 Use /tdd where possible, at pre-agreed seams.

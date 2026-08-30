@@ -1,3 +1,5 @@
+[English](ask-matt.md) · [简体中文](ask-matt.zh-CN.md)
+
 ## What it does
 
 `ask-matt` is the router over the skills in this repo. You describe the situation you are in (an idea you cannot start, a pile of incoming bug reports, a [session](https://www.aihero.dev/ai-coding-dictionary/session) that has run long), and it names the skill or the sequence of skills that fits, plus where the human decisions in that sequence sit.

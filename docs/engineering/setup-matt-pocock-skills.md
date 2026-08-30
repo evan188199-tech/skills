@@ -1,3 +1,5 @@
+[English](setup-matt-pocock-skills.md) · [简体中文](setup-matt-pocock-skills.zh-CN.md)
+
 ## What it does
 
 `setup-matt-pocock-skills` answers three questions about one repo: where issues live, what the triage labels are called, and where the domain docs sit. It records the answers as markdown files under `docs/agents/`.

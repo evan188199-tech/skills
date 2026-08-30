@@ -1,3 +1,5 @@
+[English](issue-tracker-gitlab.md) · [简体中文](issue-tracker-gitlab.zh-CN.md)
+
 # Issue tracker: GitLab
 
 Issues and specs for this repo live as GitLab issues. Use the [`glab`](https://gitlab.com/gitlab-org/cli) CLI for all operations.

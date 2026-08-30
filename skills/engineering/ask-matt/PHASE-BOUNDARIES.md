@@ -1,3 +1,5 @@
+[English](PHASE-BOUNDARIES.md) · [简体中文](PHASE-BOUNDARIES.zh-CN.md)
+
 # Phase boundaries
 
 A **phase** is a chunk of work inside a session: the grilling, the implementation, the QA. The definition is fuzzy on purpose: a phase ends when you think *"ok, we're done with that"*.

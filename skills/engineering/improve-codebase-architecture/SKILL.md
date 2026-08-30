@@ -4,6 +4,8 @@ description: Scan a codebase for deepening opportunities, present them as a visu
 disable-model-invocation: true
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 # Improve Codebase Architecture
 
 Surface architectural friction and propose **deepening opportunities**: refactors that turn shallow modules into deep ones. The aim is testability and AI-navigability.

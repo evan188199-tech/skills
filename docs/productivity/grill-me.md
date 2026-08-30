@@ -1,3 +1,5 @@
+[English](grill-me.md) · [简体中文](grill-me.zh-CN.md)
+
 ## What it does
 
 `grill-me` takes a **loose idea** and interviews you until you can commit to it. You do not need a worked-out plan to start: producing one is what the [session](https://www.aihero.dev/ai-coding-dictionary/session) is for. It asks in **rounds**: each round is the whole **frontier** (every question whose prerequisites you have already settled), so you are never asked something that hinges on an answer it hasn't heard yet.

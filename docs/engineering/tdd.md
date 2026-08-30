@@ -1,3 +1,5 @@
+[English](tdd.md) · [简体中文](tdd.zh-CN.md)
+
 ## What it does
 
 `tdd` builds a feature or fixes a bug test-first: one failing test, then just enough code to pass it, then the next behaviour. It carries the standards that make that loop produce tests worth keeping: what a good test is, where tests go, what mocks are for, and the three anti-patterns that quietly ruin a suite.

@@ -1,3 +1,5 @@
+[English](codebase-design.md) · [简体中文](codebase-design.zh-CN.md)
+
 ## What it does
 
 `codebase-design` fixes the words you use to design a module: **module**, **interface**, **depth**, **seam**, **adapter**, **leverage**, **locality**. It defines each one precisely, bans the loose substitutes ("component", "service", "API", "boundary"), and states the handful of principles that follow from them.

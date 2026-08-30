@@ -4,6 +4,8 @@ description: "Configure this repo for the engineering skills: set up its issue t
 disable-model-invocation: true
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 # Setup Matt Pocock's Skills
 
 Scaffold the per-repo configuration that the engineering skills assume:

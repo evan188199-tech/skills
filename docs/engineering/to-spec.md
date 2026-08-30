@@ -1,3 +1,5 @@
+[English](to-spec.md) · [简体中文](to-spec.zh-CN.md)
+
 ## What it does
 
 `to-spec` turns the conversation you have just had into a **[spec](https://www.aihero.dev/ai-coding-dictionary/spec)**, and publishes it to your issue tracker as a single issue.

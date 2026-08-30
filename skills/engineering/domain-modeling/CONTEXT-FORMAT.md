@@ -1,3 +1,5 @@
+[English](CONTEXT-FORMAT.md) · [简体中文](CONTEXT-FORMAT.zh-CN.md)
+
 # CONTEXT.md Format
 
 ## Structure
