@@ -1,3 +1,5 @@
+[English](ADR-FORMAT.md) · [简体中文](ADR-FORMAT.zh-CN.md)
+
 # ADR Format
 
 ADRs live in `docs/adr/` and use sequential numbering: `0001-slug.md`, `0002-slug.md`, etc.

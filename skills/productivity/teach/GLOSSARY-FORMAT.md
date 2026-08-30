@@ -1,3 +1,5 @@
+[English](GLOSSARY-FORMAT.md) · [简体中文](GLOSSARY-FORMAT.zh-CN.md)
+
 # GLOSSARY.md Format
 
 `GLOSSARY.md` is the canonical language for this teaching workspace. All explainers, exercises, and learning records should adhere to its terminology. Building it is itself part of learning: compressing a concept into a tight definition is evidence the user understands it.

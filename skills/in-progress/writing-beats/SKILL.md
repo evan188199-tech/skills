@@ -4,6 +4,8 @@ description: Writing, exploit; assemble raw material into a journey of beats, gr
 disable-model-invocation: true
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 <what-to-do>
 
 The user has passed (or will pass) a markdown file of raw material. This is **exploit**: the exploring is done, the pile is fixed. Commit to a path through it and mine the pile to fill each beat.

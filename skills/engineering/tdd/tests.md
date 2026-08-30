@@ -1,3 +1,5 @@
+[English](tests.md) · [简体中文](tests.zh-CN.md)
+
 # Good and Bad Tests
 
 ## Good Tests

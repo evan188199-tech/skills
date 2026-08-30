@@ -1,3 +1,5 @@
+[English](issue-tracker-local.md) · [简体中文](issue-tracker-local.zh-CN.md)
+
 # Issue tracker: Local Markdown
 
 Issues and specs for this repo live as markdown files in `.scratch/`.

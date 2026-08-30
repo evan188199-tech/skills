@@ -5,6 +5,8 @@ disable-model-invocation: true
 argument-hint: "A workflow to design, or nothing to go find one"
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 Run a stateful `/grilling` session whose only output is **workflow** specs. Use the grilling discipline (relentless, a round of questions at a time, a recommended answer attached to each) aimed at the vocabulary and goal below. Create, edit, and delete specs as the grilling resolves things.
 
 ## The loop lens

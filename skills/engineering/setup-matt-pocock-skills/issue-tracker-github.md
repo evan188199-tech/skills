@@ -1,3 +1,5 @@
+[English](issue-tracker-github.md) · [简体中文](issue-tracker-github.zh-CN.md)
+
 # Issue tracker: GitHub
 
 Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all operations.

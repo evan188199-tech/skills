@@ -4,6 +4,8 @@ description: Move issues and external PRs through a state machine of triage role
 disable-model-invocation: true
 ---
 
+[English](SKILL.md) · [简体中文](SKILL.zh-CN.md)
+
 # Triage
 
 Move issues on the project issue tracker through a small state machine of triage roles.

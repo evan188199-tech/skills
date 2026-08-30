@@ -1,3 +1,5 @@
+[English](mocking.md) · [简体中文](mocking.zh-CN.md)
+
 # When to Mock
 
 Mock at **system boundaries** only:

@@ -1,3 +1,5 @@
+[English](DEEPENING.md) · [简体中文](DEEPENING.zh-CN.md)
+
 # Deepening
 
 How to deepen a cluster of shallow modules safely, given its dependencies. Assumes the vocabulary in [SKILL.md](SKILL.md): **module**, **interface**, **seam**, **adapter**.

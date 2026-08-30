@@ -1,0 +1,79 @@
+[English](tests.md) · [简体中文](tests.zh-CN.md)
+
+# Good and Bad Tests
+
+## Good Tests
+
+**Integration-style**：通过真实接口测试，而不是 mock 内部部件。
+
+```typescript
+// GOOD: Tests observable behavior
+test("user can checkout with valid cart", async () => {
+  const cart = createCart();
+  cart.add(product);
+  const result = await checkout(cart, paymentMethod);
+  expect(result.status).toBe("confirmed");
+});
+```
+
+特征：
+
+- 测试的是用户/调用方真正关心的行为
+- 只使用公开 API
+- 能挺过内部重构
+- 描述的是"是什么"，而不是"怎么做"
+- 每个测试一个逻辑断言
+
+## Bad Tests
+
+**Implementation-detail tests**：和内部结构耦合在一起。
+
+```typescript
+// BAD: Tests implementation details
+test("checkout calls paymentService.process", async () => {
+  const mockPayment = jest.mock(paymentService);
+  await checkout(cart, payment);
+  expect(mockPayment.process).toHaveBeenCalledWith(cart.total);
+});
+```
+
+危险信号：
+
+- Mock 内部协作对象
+- 测试私有方法
+- 断言调用次数/顺序
+- 行为没变，但重构后测试就挂了
+- 测试名字描述的是"怎么做"而不是"是什么"
+- 通过外部手段验证，而不是通过接口
+
+```typescript
+// BAD: Bypasses interface to verify
+test("createUser saves to database", async () => {
+  await createUser({ name: "Alice" });
+  const row = await db.query("SELECT * FROM users WHERE name = ?", ["Alice"]);
+  expect(row).toBeDefined();
+});
+
+// GOOD: Verifies through interface
+test("createUser makes user retrievable", async () => {
+  const user = await createUser({ name: "Alice" });
+  const retrieved = await getUser(user.id);
+  expect(retrieved.name).toBe("Alice");
+});
+```
+
+**Tautological tests**：期望值只是把实现重新说了一遍，所以这个测试天生就会通过。
+
+```typescript
+// BAD: Expected value is recomputed the way the code computes it
+test("calculateTotal sums line items", () => {
+  const items = [{ price: 10 }, { price: 5 }];
+  const expected = items.reduce((sum, i) => sum + i.price, 0);
+  expect(calculateTotal(items)).toBe(expected);
+});
+
+// GOOD: Expected value is an independent, known literal
+test("calculateTotal sums line items", () => {
+  expect(calculateTotal([{ price: 10 }, { price: 5 }])).toBe(15);
+});
+```
