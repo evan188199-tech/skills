@@ -1,3 +1,5 @@
+[English](writing-for-agents.md) · [简体中文](writing-for-agents.zh-CN.md)
+
 ## What it does
 
 `writing-for-agents` is the reference you write agent-facing documents against: a skill, an `AGENTS.md` / `CLAUDE.md`, a [spec](https://www.aihero.dev/ai-coding-dictionary/spec), a runtime prompt, a README, any doc an [agent](https://www.aihero.dev/ai-coding-dictionary/agent) reads. The packaging differs; the writing does not: the same levers make each one predictable, so the agent takes the same *process* every run rather than producing the same output.

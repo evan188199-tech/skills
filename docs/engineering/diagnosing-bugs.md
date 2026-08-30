@@ -1,3 +1,5 @@
+[English](diagnosing-bugs.md) · [简体中文](diagnosing-bugs.zh-CN.md)
+
 ## What it does
 
 `diagnosing-bugs` runs a six-phase diagnosis on a hard bug or a performance regression: build a repro, minimise it, rank hypotheses, instrument, fix with a regression test, clean up.

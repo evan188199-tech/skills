@@ -1,3 +1,5 @@
+[English](prototype.md) · [简体中文](prototype.zh-CN.md)
+
 ## What it does
 
 `prototype` writes **throwaway code that answers a question**: does this state model feel right, or what should this screen look like. The question comes first and decides the shape of everything that follows; a prototype that answers the wrong question is pure waste, however good it looks.

@@ -1,3 +1,5 @@
+[English](grilling.md) · [简体中文](grilling.zh-CN.md)
+
 ## What it does
 
 `grilling` is the interview loop that stress-tests a plan, a decision, or an idea before anyone acts on it. It maps the subject as a **design tree**: every decision branches into the decisions that hang off it, and interviews you branch by branch until nothing is left silently assumed.
