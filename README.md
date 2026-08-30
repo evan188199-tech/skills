@@ -83,6 +83,8 @@ In your agent, run it once per repo. It will:
 
 ### 3. Bam - you're ready to go.
 
+For a reader-friendly map of every guide, start with [docs/README.md](./docs/README.md). It groups the guides by goal, shows how the main workflow fits together, and links to both English and Simplified Chinese explanations.
+
 ## Why These Skills Exist
 
 I built these skills as a way to fix common failure modes I see with Claude Code, Codex, and other coding agents.

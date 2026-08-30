@@ -83,6 +83,8 @@ npx skills@latest add evan188199-tech/skills
 
 ### 3. 搞定：可以开工了。
 
+想要一份更容易读的全量指南地图，可以从 [docs/README.zh-CN.md](./docs/README.zh-CN.md) 开始。它按目标分组、说明主工作流如何衔接，并提供英文和简体中文说明入口。
+
 ## 这些技能存在的原因
 
 我建立这些技能是为了修复我在 Claude Code、Codex 以及其他编程智能体上看到的常见失败模式。
